@@ -1,37 +1,76 @@
 body, button, dd, dl, dt, fieldset, form, h1, h2, h3, h4, h5, h6, input, legend, li, ol, p, select, table, td, textarea, th, ul {
-    margin:0;
-    padding:0
+    margin: 0;
+    padding: 0
 }
-
 body {
-    font-size:14px;
+    font-size: 14px;
     line-height: 1.5;
     color: #464646;
-    font-family:'microsoft yahei', Verdana, Arial;
+    font-family: 'microsoft yahei', Verdana, Arial;
 }
 button, input, select, table, textarea {
-    font-size:12px;
+    font-size: 12px;
 }
 fieldset, img {
-    border:0
+    border: 0
 }
 ol, ul {
-    list-style:none
+    list-style: none
 }
-
-
+body {
+    background: url(../img/bg.jpg) repeat-x;
+}
 /*main 让一个固定宽的元素 水平居中*/
-.main{width: 990px; margin: 0 auto;}
 
-.notice{
-	padding: 10px 10px 10px 50px;
-	background: #fcfcfc;
-	border-top: 2px solid #dddddd;
-	border-bottom: 1px solid #f2f2f2;
+.main {
+    width: 990px;
+    margin: 0 auto;
 }
-.notice b{font-weight: bold; font-size: 20px}
-
-
-
-
-
+.header {
+    width: 990px;
+    margin: 0 auto;
+    height: 29px
+}
+.header .welcome {
+    background: #c00;
+    float: left;
+}
+.header .welcome .login {
+    margin-left: 15px
+}
+.header .menu {
+    background: #c00;
+    float: right;
+    margin-top: 2px;
+}
+.header .menu a {
+    margin-left: 10px;
+     background: #9fd10e;
+    height: 27px;
+    float: left;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.header a:link {
+    color: #ccc
+}
+.header a:visited {
+    color: #69c;
+}
+.header a:hover {
+    color: #000;
+   
+}
+.header a:active {
+    color: #f00
+}
+.notice {
+    padding: 10px 10px 10px 50px;
+    background: #fcfcfc;
+    border-top: 2px solid #dddddd;
+    border-bottom: 1px solid #f2f2f2;
+}
+.notice b {
+    font-weight: bold;
+    font-size: 20px
+}
