@@ -83,6 +83,8 @@ body {
     margin: 0 auto;
 }
 .footer_top {
+    padding-top: 25px;
+    padding-bottom: 5px;
     border-bottom: 1px solid #c0c0c0;
 }
 .footer_top .foot_l {
@@ -95,11 +97,48 @@ body {
 }
 .foot_l dl {
     float: left;
-    width: 120px;
+    width: 116px;
     margin-right: 75px;
 }
-.foot_l dl.last{
+.foot_l dl dd, .foot_l dl dt {
+    padding-left: 36px;
+}
+.foot_l dl dd {
+    margin-bottom: 10px;
+}
+.foot_l dd a {
+    color: #9f9f9f;
+    text-decoration: none;
+}
+.foot_l dd a:hover {
+    color: #a9d72f;
+    text-decoration: underline;
+}
+.foot_l dl dt {
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #8c8c8c;
+    background: url(../img/dtbg2.jpg) no-repeat 0 7px;
+}
+.foot_l dl.last {
     margin-right: 0
+}
+/*负边距的应用技巧*/
+.foot_r ul {
+    margin-left: -17px;
+    width: 277px;
+    
+}
+.foot_r li {
+    float: left;
+    width: 112px;
+    height: 34px;
+    background: #f6f6f6;
+    border: 1px solid #eee;
+    text-align: center;
+    line-height: 34px;
+    margin-bottom: 5px;
+    margin-left: 17px;
 }
 .clear {
     clear: both;
